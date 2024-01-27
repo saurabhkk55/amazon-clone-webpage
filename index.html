@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bodyContent">
+    <div class="navBar">
+        <div class="layout">
+            <a href="">
+                <img src="./images/amazonLogo.jpg" alt="image not found" class="amazonLogo_url">
+            </a>
+        </div>
+
+        <div class="layout navbar2">
+            <span class="upperFont">Deliver to</span>
+            <span class="lowerFont"><i class="fa-solid fa-location-dot"></i> India</span>
+        </div>
+
+        <div class="layout navbar3">
+            <div>
+                <label for="productList"></label>
+                <select name="availableProducts" id="productList" class="amazonProducts">
+                    <option value="all">All</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="wooden">Wooden</option>
+                    <option value="dold">Gold</option>
+                    <option value="books">Books</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" placeholder="Search Amazon" class="userChoiceProduct">
+            </div>
+            <div class="searchIcon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="layout navbar4">
+            <span><i class="fa-solid fa-globe"></i></span>
+            <span>
+                <label for="countryList"></label>
+                <select name="countries" id="countryList">
+                    <option value="india">IN</option>
+                    <option value="usa">USA</option>
+                    <option value="japan">Japan</option>
+                </select>
+            </span>
+        </div>
+
+        <div class="layout navbar5">
+            <span class="nav5-upper">Hello, sign in</span>
+            <span class="nav5-lower">Account & Lists</span>
+        </div>
+
+        <div class="layout navbar6">
+            <span class="nav6-upper">Returns</span>
+            <span class="nav6-lower">& Orders</span>
+        </div>
+
+        <div class="layout navbar7">
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+            <span class="cartFont">Cart</span>
+        </div>
+    </div>
+
+    <!-- Second footer -->
+    <div class="direct_options">
+        <div class="menuBar">
+            <i class="fa-solid fa-bars"></i>
+            <span>All</span>
+        </div>
+        <div class="menuBar">Today's Deals</div>
+        <div class="menuBar">Customer Service</div>
+        <div class="menuBar">Registry</div>
+        <div class="menuBar">Gift cards</div>
+        <div class="menuBar">Sell</div>
+    </div>
+
+    <div class="mainImage"></div>
+
+    <!-- Main body -->
+    <!-- style-3.css -->
+    <div class="hero_section">
+        <div class="introMsg"><p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a></p></div>
+    </div>
+
+    <!-- style-4.css -->
+    <div class="shopping">
+        <div class="item">
+            <div class="productAccessories">Gaming accessories</div>
+            <div class="productBlocks">
+                <div class="product">
+                    <div style="background-image: url(./images/gameImages/Chair.jpg);" class="productFrame"></div>
+                    <div>Chair</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/gameImages/Keyboard.jpg);" class="productFrame"></div>
+                    <div>Keyboard</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/gameImages/Mouse.jpg);" class="productFrame"></div>
+                    <div>Mouse</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/gameImages/Headset.jpg);" class="productFrame"></div>
+                    <div>Headset</div>
+                </div>
+            </div>
+            <div class="moreProducts"><a href="">See more</a></div>
+        </div>
+
+        <div class="item">
+            <div class="productAccessories">Deals in PCs</div>
+            <div style="background-image: url(./images/pc/pc.jpg);" class="singleProduct"></div>
+            <div class="moreProducts"><a href="">See more</a></div>
+        </div>
+
+        <div class="item">
+            <div class="productAccessories">Refresh your space</div>
+            <div class="productBlocks">
+                <div class="product">
+                    <div style="background-image: url(./images/refreshSpace/dinning.jpg);" class="productFrame"></div>
+                    <div>Dinning</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/refreshSpace/healthBeauty.jpg);" class="productFrame"></div>
+                    <div>Health and Beauty</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/refreshSpace/home.jpg);" class="productFrame"></div>
+                    <div>Home</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/refreshSpace/kitchen.jpg);" class="productFrame"></div>
+                    <div>Kitchen</div>
+                </div>
+            </div>
+            <div class="moreProducts"><a href="">See more</a></div>
+        </div>
+
+
+        <div class="item">
+            <div class="productAccessories">Toys under $25</div>
+            <div style="background-image: url(./images/toys/toys.jpg);" class="singleProduct"></div>
+            <div class="moreProducts"><a href="">Shop now</a></div>
+        </div>
+
+        <div class="item">
+            <div class="productAccessories">Shop deals in Fashion</div>
+            <div class="productBlocks">
+                <div class="product">
+                    <div style="background-image: url(./images/fashion/jeans.jpg);" class="productFrame"></div>
+                    <div>Jeans</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/fashion/tops.jpg);" class="productFrame"></div>
+                    <div>Tops</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/fashion/dress.jpg);" class="productFrame"></div>
+                    <div>Dress</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/fashion/shoes.jpg);" class="productFrame"></div>
+                    <div>Shoes</div>
+                </div>
+            </div>
+            <div class="moreProducts"><a href="">See more</a></div>
+        </div>
+
+        <div class="item">
+            <div class="productAccessories">Lunar New Year</div>
+            <div style="background-image: url(./images/lunarNewYear/lunarNewYear.jpg);" class="singleProduct"></div>
+            <div class="moreProducts"><a href="">Shop now</a></div>
+        </div>
+
+        <div class="item">
+            <div class="productAccessories">Fashion trends you like</div>
+            <div class="productBlocks">
+                <div class="product">
+                    <div style="background-image: url(./images/fashionTrends/dresses.jpg);" class="productFrame"></div>
+                    <div>Dresses</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/fashionTrends/knits.jpg);" class="productFrame"></div>
+                    <div>Knits</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/fashionTrends/jacket.jpg);" class="productFrame"></div>
+                    <div>Jacket</div>
+                </div>
+                <div class="product">
+                    <div style="background-image: url(./images/fashionTrends/jewelry.jpg);" class="productFrame"></div>
+                    <div>Jewelry</div>
+                </div>
+            </div>
+            <div class="moreProducts"><a href="">See more</a></div>
+        </div>
+
+        <div class="item">
+            <div class="productAccessories">Top Deal</div>
+            <div style="background-image: url(./images/topDeal/topDeal.jpg); height: 199px;" class="singleProduct"></div>
+            <div class="discountedProduct"><a href="">Up to 50% off</a></div>
+            <div style="display: inline-block; color: red; font-size: 12px; font-weight: 400;"><a href="" style="color: red;">Top deal</a></div>
+            <div style="margin-left: 20px;"><a href="" style="font-size: 14px; color: black; font-weight: 400;">Beetles Gel Polish</a></div>
+            <div class="moreProducts"><a href="">See more</a></div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <!-- style-5.css -->
+    <footer>
+        <div class="footer1">Back to top</div>
+        <div class="footer2">
+            <div>
+                <p>Get to Know Us</p>
+                <ul>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About Amazon</a></li>
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="">Amazon Devices</a></li>
+                    <li><a href="">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Make Money with Us</p>
+                <ul>
+                    <li><a href="">Sell products on Amazon</a></li>
+                    <li><a href="">Sell on Amazon Business</a></li>
+                    <li><a href="">Sell apps on Amazon</a></li>
+                    <li><a href="">Become an Affiliate</a></li>
+                    <li><a href="">Advertise Your Products</a></li>
+                    <li><a href="">Self-Publish with Us</a></li>
+                    <li><a href="">Host an Amazon Hub</a></li>
+                    <li><a href="">›See More Make Money with Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Amazon Payment Products</p>
+                <ul>
+                    <li><a href="">Amazon Business Card</a></li>
+                    <li><a href="">Shop with Points</a></li>
+                    <li><a href="">Reload Your Balance</a></li>
+                    <li><a href="">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Let Us Help You</p>
+                <ul>
+                    <li><a href="">Amazon and COVID-19</a></li>
+                    <li><a href="">Your Account</a></li>
+                    <li><a href="">Your Orders</a></li>
+                    <li><a href="">Shipping Rates & Policies</a></li>
+                    <li><a href="">Returns & Replacements</a></li>
+                    <li><a href="">Manage Your Content and Devices</a></li>
+                    <li><a href="">Amazon Assistant</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer3">
+            <div class="footer31">
+                <div class="logo"></div>
+                <div class="info">
+                    <div><i class="fa-solid fa-globe"></i><span>English</span></div>
+                    <div><i class="fa-solid fa-dollar-sign"></i><span>USD - U.S. Dollar</span></div>
+                    <div><i class="fa-solid fa-flag-usa" style="color: #FFD43B;"></i><Span>United States</Span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer4">
+            <div class="footer4-items">
+                <a href="">Conditions of Use</a> 
+                <a href="">Privacy Notice</a>
+                <a href="">Your Ads Privacy Choices</a>
+            </div>
+            <div class="footer4-items">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
+    
+</body>
+</html>

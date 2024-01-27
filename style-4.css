@@ -1,0 +1,84 @@
+.shopping {
+    background-color: rgb(235, 245, 237);
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 1480px; */
+    /* margin-left: 11px; */
+    padding-top: 20px;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.item {
+    background-color: white;
+    width: 350px;
+    height: 385px;
+}
+
+.productAccessories {
+    font-size: 21px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.productBlocks {
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0px 20px; */
+    padding-left: 20px;
+    column-gap: 15px;
+}
+
+.product{
+    width: 45%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productFrame {
+    background-size: cover;
+    height: 120px;
+}
+
+.moreProducts {
+    padding-top: 20px;
+    padding-left: 20px;
+    /* border: 1px solid blue; */
+    font-size: 13px!important;
+    line-height: 19px!important;
+}
+
+.moreProducts a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.singleProduct {
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.discountedProduct {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    width: 75px;
+    height: 16px;
+    margin-left: 20px;
+    padding: 8px;
+}
+.discountedProduct a {
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}

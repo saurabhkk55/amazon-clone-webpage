@@ -1,0 +1,28 @@
+.direct_options {
+    display: flex;
+    height: 39px;
+    /* background-color: rgb(38, 35, 44); */
+    /* background-color: lightslategray; */
+    background-color: #232F3E;
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuBar {
+    /* border: 1px solid orange; */
+    height: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 14px;
+}
+
+.menuBar span {
+    font-weight: 700;
+}
+
+.menuBar:hover {
+    border: 1px solid white;
+}

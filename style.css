@@ -1,0 +1,172 @@
+@import url(./style-2.css);
+@import url(./style-3.css);
+@import url(./style-4.css);
+@import url(./style-5.css);
+
+.bodyContent {
+    font-family: Arial,sans-serif;
+}
+
+.navBar {
+    color: white;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+/* common box */
+.layout {
+    height: 46px;
+    padding: 2px 20px;
+}
+
+/* navbar1 */
+.amazonLogo_url {
+    background-size: 100% 100%;
+    width: 90px;
+    height: 30px;
+    padding: 8px 0px;
+}
+
+/* navbar2 */
+.navbar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upperFont {
+    padding-left: 14.5px;
+    font-size: 12px;
+    width: 51px;
+    color: #CCCCCC;
+}
+
+.lowerFont {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* navbar3 */
+.navbar3 {
+    display: flex;
+    align-items: center;
+}
+
+.amazonProducts {
+    width: 50px;
+    height: 42px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: none;
+}
+
+.userChoiceProduct {
+    width: 620px;
+    height: 40px;
+    border: none;
+}
+
+.searchIcon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: orange;
+    font-size: 1.2rem;
+}
+
+/* navbar4 */
+.navbar4 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar4 span i {
+    padding-right: 2px;
+}
+.navbar4 span select, .navbar4 span select option {
+    font-size: 1.1rem;
+    font-weight: 700;
+    width: 40px;
+}
+.navbar4 span select {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.navbar4 span select option {
+    background-color: #131A22;
+}
+
+/* navbar5 */
+.navbar5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav5-upper {
+    width: 100px;
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.nav5-lower {
+    width: 115px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* navbar6 */
+.navbar6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav6-upper {
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.nav6-lower {
+    width: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* navbar6 */
+.navbar7 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar7 span i {
+    font-size: 1.7rem;
+}
+
+.cartFont {
+    align-self: flex-end;
+    padding-bottom: 7px;
+    font-weight: 700;
+}
+
+/* animation */
+.layout:hover {
+    border: 1px solid white;
+}
+
+.navbar3:active {
+    border: 4px solid orange;
+}

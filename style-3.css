@@ -1,0 +1,29 @@
+.hero_section {
+    background-image: url(./images/hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+
+.introMsg {
+    /* border: 1px solid yellow; */
+    background-color: white;
+    height: 20px;
+    /* width: 1450px; */
+    width: 96.5%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 14px!important;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_section a {
+    text-decoration: none;
+}
